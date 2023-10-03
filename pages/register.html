@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapaz Food</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="welcome-text">
+        <h1>Register At Shapaz Food</h1>
+    </div>
+    <section class="container">
+        <form class="register-form">
+            <h1>Register</h1>
+            <div class="register-inputs">
+                <label id="register-labels" for="register-username">Username : </label>
+                <input type="text" id="register-username">
+            </div>
+            <div class="register-inputs">
+                <label id="register-labels" for="register-email">Email :</label>
+                <input type="email" id="register-email">
+            </div>
+            <div class="register-inputs">
+                <label id="register-labels" for="register-password">Password :</label>
+                <input type="password" id="register-password">
+            </div>
+            <div class="register-inputs">
+                <label id="register-labels" for="register-confirm-password">Confirm Password :</label>
+                <input type="password" id="register-confirm-password">
+            </div>
+            <div class="register-gender-inputs">
+                <label for="gender-radio-male">Male</label>
+                <input style="margin-right: 5px;" type="radio" name="gender-radio" id="gender-radio-male">
+                <label for="gender-radio-female">Female</label>
+                <input type="radio" name="gender-radio" id="gender-radio-female">
+                <label style="margin-left: 5px;" for="gender-radio-others">Others</label>
+                <input type="radio" name="gender-radio" id="gender-radio-others">
+            </div>
+            <input id="register-bt" class="btn" type="button" value="Register">
+            <a href="../index.html">Already have an account ? login</a>
+        </form>
+        <ul class="notif-list"></ul>
+    </section>
+</body>
+    <script src="../js/main.js"></script>
+</html>

@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 400px;
+    padding: 3rem 2rem;
+    overflow: auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+}
+
+.welcome-text {
+    background-color: rgb(150, 150, 150);
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.login-form {
+    background-color: #eee;
+    padding: 2rem 2rem 1.5rem;
+    border: 1px rgb(150, 150, 150) solid;
+    border-radius: 10px;
+}
+
+.login-form label {
+    margin-bottom: 2%;
+    display: block;
+}
+
+.login-form a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form a:active {
+    color: blueviolet;
+}
+
+.btn {
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+    border-width: 2px;
+    border: 1.5px solid rgb(150, 150, 150);
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(150, 150, 150);
+    border: 1.5px solid rgb(80, 80, 80);
+}
+
+.btn:active {
+    background-color: #eee;
+    border: 1.5px solid rgb(150, 150, 150);
+}
+
+.login-inputs [type="password"] , .login-inputs [type="text"] {
+    margin-bottom: 5%;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.notif-list {
+    list-style: none;
+}
+
+.notif-items {
+    width: 100%;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background-color: #eee;
+    border: 1px rgb(150, 150, 150) solid;
+    padding: 5px 0px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.register-form {
+    border: 1px rgb(150, 150, 150) solid;
+    border-radius: 10px;
+    background-color: #eee;
+    padding: 2rem 2rem 1.5rem;
+}
+
+
+.register-form label[id="register-labels"] {
+    display: block;
+    margin-bottom: 2%;
+}
+
+
+.register-form input[type="password"], .register-form input[type="text"], .register-form input[type="email"] {
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 8px;
+}
+
+.register-gender-inputs {
+    margin: 2% 0;
+}
+
+
+.register-form a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.register-form a:hover {
+    text-decoration: underline;
+}
+
+.register-form a:active {
+    color: blueviolet;
+}
+
+
+.info-panel {
+    background-color: #eee;
+    padding: 2rem 2rem 1.5rem;
+    border: 1px rgb(150, 150, 150) solid;
+    border-radius: 10px;
+}
+
+.info-panel label {
+    margin-bottom: 2%;
+    display: block;
+}
+
+
